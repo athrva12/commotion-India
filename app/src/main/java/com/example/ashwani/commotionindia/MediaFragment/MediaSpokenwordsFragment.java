@@ -41,9 +41,18 @@ public class MediaSpokenwordsFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         //load video list
-        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ql33DIx17qg?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>  "));
-        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ul3L9AV4-mM?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>  "));
-        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/qLScskhJNtw?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"));
+        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/URvSy20GTeE\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n"));
+        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/mDSlXUbnVpE\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n"));
+        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/mhBWmRMupcw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n"));
+        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/uXT_LluWKb8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n"));
+        youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/IJx1PP99zdk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n"));
+       // youtubeVideos.add(new //MediaDocumentationCard(""));
+        //youtubeVideos.add(new //MediaDocumentationCard(""));
+        //youtubeVideos.add(new //MediaDocumentationCard(""));
+        //youtubeVideos.add(new MediaDocumentationCard(""));
+                //youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ql33DIx17qg?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>  "));
+        //youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/ul3L9AV4-mM?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>  "));
+        //youtubeVideos.add(new MediaSpokenwordsCard("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/qLScskhJNtw?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"));
         //youtubeVideos.add(new MediaCampuson("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/lXvX8zpKeB8?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"));
         //youtubeVideos.add(new MediaCampuson("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/lXvX8zpKeB8?ecver=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"));
         MediaSpokenwordsVideoAdapter videoAdapter =new MediaSpokenwordsVideoAdapter(youtubeVideos);
